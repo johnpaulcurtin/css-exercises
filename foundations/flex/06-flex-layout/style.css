@@ -7,6 +7,18 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header{}
+
+.content{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8 px;
+  
+  
+}
+
 img {
   width: 600px;
 }
@@ -30,6 +42,8 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
 
 .footer {
   background-color: #eeeeee;
