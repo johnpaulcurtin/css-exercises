@@ -13,15 +13,17 @@ body {
   font-size: 32px;
   font-weight: 900;
   padding: 16px;
- align-content: center;
-
- 
+  display:flex;
+ align-items: center; 
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
